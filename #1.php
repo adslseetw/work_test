@@ -1,6 +1,6 @@
 <?php
-	fwrite(STDOUT,'请输入階層數量：');
-	echo '排列組方法有：'.floorTest2(fgets(STDIN))."種";
+	fwrite(STDOUT,'Please type level number. ');
+	echo 'The sort number is '.floorTest2(fgets(STDIN)).".\n";
 
 	function floorTest($n){
 		$count = 0;
